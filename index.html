@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <section class="main">
+        <div class="content">
+            <h1>WEIGHT CONVERTER <span class="pasikas">made by @pasikas</span></h1>
+            <p>Please provide values below to convert weight measurements to any other measurements.</p>
+            <div class="inputsbutton">
+                <div class="input-from-block">From: <input type="text" class="input-from" placeholder="Put your value here">
+                    <select class="select-from">
+                        <option value="kilograms">kilograms</option>
+                        <option value="grams">grams</option>
+                        <option value="tons">tons</option>
+                        <option value="pounds">pounds</option>
+                        <option value="ounces">ounces</option>
+                    </select>
+                </div>
+
+                <div>To: <input type="text" class="input-to" placeholder="Get your value here">
+                    <select class="select-to">
+                        <option value="kilograms">kilograms</option>
+                        <option value="grams">grams</option>
+                        <option value="tons">tons</option>
+                        <option value="pounds">pounds</option>
+                        <option value="ounces">ounces</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="convert-button1" id="convert">Convert</button>
+                <button class="convert-button2" id="clear">Clear</button>
+            </div>
+            <div id="resultMsg"></div>
+        </div>
+    </section>
+</body>
+
+</html>

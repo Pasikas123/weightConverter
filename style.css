@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #EDDEA4;
+    height: 100vh;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.pasikas {
+    font-style: italic;
+    font-size: 8px;
+}
+.content h1 {
+    margin-bottom: 20px;
+}
+.content p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#convert {
+    width: 100px;
+    height: 20px;
+}
+.inputsbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reverse {
+    width: 100px;
+}
+.select {
+    margin-top: 5px;
+}
+.select-from {
+    margin-top: 5px;
+}
+.select-to {
+    margin-top: 5px;
+}
+.btn {
+    margin-top: 10px;
+}
+#resultMsg {
+    color: crimson;
+}
