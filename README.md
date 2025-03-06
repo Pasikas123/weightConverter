@@ -14,7 +14,7 @@ Just open link: https://pasikas123.github.io/weightConverter/
 
 ### Example of how it looks
 
-<img src="images/zaidimo pvz.png">
+<img src="/konverteris.png">
 
 ## Authors
 
